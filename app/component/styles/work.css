@@ -1,0 +1,17 @@
+.work {
+  padding: 15px;
+}
+.mission {
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+  margin: 10px;
+  border: 3px double rgba(112, 128, 144, 0.622);
+}
+.mission p {
+  font-size: 20px;
+  text-align: center;
+}
+.mission img {
+  width: 700px;
+}

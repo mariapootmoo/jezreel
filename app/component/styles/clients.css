@@ -1,0 +1,23 @@
+.panelclients {
+  padding: 15px;
+}
+h4 {
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+}
+
+.clients {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+}
+.logos img {
+  padding: 5px;
+  max-width: 230px;
+  max-height: 100px;
+}

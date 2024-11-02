@@ -1,0 +1,37 @@
+.contactinfo {
+  font-size: x-small;
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-content: space-between;
+  gap: 20px;
+}
+
+.follow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+}
+.redes a:hover{color: grey}
+.info{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.info a:hover{color: grey}
