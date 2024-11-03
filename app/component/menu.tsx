@@ -19,11 +19,11 @@ export const Menu = () => {
       />
       <div
         className={`
-    fixed top-0 right-0 h-full w-1/2 bg-gradient-to-b from-black
-     via-slate-800 to-slate-600 shadow-lg transform 
-    ${isOpen ? "translate-x-0" : "translate-x-full"}
-    transition-transform duration-300 ease-in-out lg:hidden z-50
-  `}
+          fixed top-0 right-0 h-full w-2/5 bg-gradient-to-b from-black
+          via-slate-800 to-slate-600 shadow-lg transform 
+          ${isOpen ? "translate-x-0" : "translate-x-full"}
+          transition-transform duration-300 ease-in-out lg:hidden z-50
+        `}
       >
         <div className="flex justify-end p-4">
           <AiOutlineClose
@@ -32,8 +32,8 @@ export const Menu = () => {
             className="cursor-pointer"
             onClick={toggleMenu}
           />
-        </div>{" "}
-        <ul className=" text-white flex flex-col items-center justify-center space-y-6 mt-10">
+        </div>
+        <ul className="text-white flex flex-col items-center justify-center space-y-6 mt-10">
           <li>
             <a href="#server">Nuestros servicios</a>
           </li>
@@ -54,6 +54,26 @@ export const Menu = () => {
           onClick={toggleMenu}
         ></div>
       )}
+      <div className="hidden lg:flex items-center justify-between  w-full">
+        <ul className="flex space-x-6">
+          <li>
+            <a href="#server" >
+              Nuestros servicios
+            </a>
+          </li>
+          <li>
+            <a href="#work">
+              Nuestro trabajo
+            </a>
+          </li>
+          <li>
+            <a href="#we" >
+              Acerca de
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
+

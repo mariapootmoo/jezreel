@@ -1,0 +1,17 @@
+.contwe{
+    background-color: rgb(192, 192, 192);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    padding: 40px;
+}
+
+@media (min-width: 1024px) {
+    .contwe{
+        height: 600px;
+        padding-left:100px ;
+        padding-right: 100px;
+    }
+  }

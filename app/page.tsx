@@ -28,12 +28,10 @@ export default function Home() {
           </h3>
           <Server />
         </div>
-        <div id="we"></div>
-        <We />
         <div id="work">
           <Work />
         </div>
-
+        <div id="we"><We /></div>
         <div id="clients">
           <Clients />
         </div>

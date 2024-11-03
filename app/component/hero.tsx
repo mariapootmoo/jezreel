@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="text-white text-5xl font-bold mb-4">
           Te ayudamos a hacer realidad tu proyecto
         </h1>
-        <p className="text-white text-lg">
+        <p className="text-white text-lg py-3.5">
           Crea soluciones de software sólidas, ágiles y adaptables a las
           necesidades de tu negocio
         </p>

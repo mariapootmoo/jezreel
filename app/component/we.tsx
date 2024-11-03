@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles/we.css";
 
 export const We = () => {
   return (
-    <div className="bg-gray-700 flex items-center text-center p-10 w-auto h-[500px] text-white">
+    <div className="contwe">
       <h3>
         Somos un equipo de trabajo multidisciplinario que tiene como objetivo
         ayudar a las empresas a adaptarse rápidamente a la nueva realidad

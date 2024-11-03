@@ -3,15 +3,25 @@
 }
 .mission {
   display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 10px;
   border: 3px double rgba(112, 128, 144, 0.622);
+  gap: 40px;
+  
 }
 .mission p {
   font-size: 20px;
   text-align: center;
 }
 .mission img {
-  width: 700px;
+  width: 800px;
+}
+
+@media (min-width: 1024px) {
+  .mission{
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 40px;
+  }
 }
